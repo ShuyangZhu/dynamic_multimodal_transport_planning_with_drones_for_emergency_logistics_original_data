@@ -54,6 +54,17 @@ All data and results are organized into thematic folders as follows:
 
 ---
 
+## Notes on Data Files
+Across all folders, the main Excel files follow a consistent naming convention and contain the following information:  
+- **Barge_no_land** – Records impassable routes  
+- **D_EGS - 10r** – Distance matrix table  
+- **Fixed_right_real** – Records fixed vehicles and fixed routes  
+- **Intermodal_EGS_data_all** – Contains node information, vehicle information, route information, order information, and all related parameters  
+- **exps_record_all** – Master table of all experimental results  
+
+---
+
+
 ## Usage
 All benchmark data and results are made publicly available to support **transparency and reproducibility**.  
 Researchers can use these files to replicate or extend our experiments.  
