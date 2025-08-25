@@ -9,7 +9,9 @@ All data and results are organized into thematic folders as follows:
 ## Repository Structure
 
 - **Comparison with the exact approach**  
-  Contains results comparing the proposed heuristic algorithm with the exact solution approach-Gurobi.
+  Contains results comparing the proposed ALNS algorithm with the exact solution approach-Gurobi.
+  - `ALNS` – Results using ALNS algorithm   
+  - `Gurobi` – Results using Gurobi
 
 - **The impact of different operator designs**  
   Contains experiments evaluating the influence of different operator designs in the ALNS heuristic:  
