@@ -9,7 +9,7 @@ All data and results are organized into thematic folders as follows:
 ## Repository Structure
 
 - **Comparison with the exact approach**  
-  Contains results comparing the proposed heuristic algorithm with the exact solution approach.
+  Contains results comparing the proposed heuristic algorithm with the exact solution approach-Gurobi.
 
 - **The impact of different operator designs**  
   Contains experiments evaluating the influence of different operator designs in the ALNS heuristic:  
@@ -19,7 +19,7 @@ All data and results are organized into thematic folders as follows:
   - `No-M` – Results excluding the multimodal-specific operators  
 
 - **Stability analysis of ALNS**  
-  Provides 10 runs of ALNS under identical settings to test its stability and robustness.
+  Provides 10 consecutive runs of ALNS under identical settings to test its stability and robustness.
 
 - **Comparison of approaches with and without drones**  
   Comparative results between multimodal approaches:  
@@ -32,7 +32,7 @@ All data and results are organized into thematic folders as follows:
   - `dynamic` – Dynamic rolling-horizon model results  
 
 - **Performance under numerous sudden events**  
-  Evaluates the system under different frequencies of sudden disruptions:  
+  Evaluates the system under numerous sudden events and large-scale network changes:  
   - `Low frequency` – Few sudden events  
   - `High frequency` – Frequent sudden events  
 
