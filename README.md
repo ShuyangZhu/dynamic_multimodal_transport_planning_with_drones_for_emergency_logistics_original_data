@@ -14,17 +14,17 @@ All data and results are organized into thematic folders as follows:
 - **The impact of different operator designs**  
   Contains experiments evaluating the influence of different operator designs in the ALNS heuristic:  
   - `All` – Results using all operators  
-  - `No-G` – Results excluding the "G" operator  
-  - `No-R` – Results excluding the "R" operator  
-  - `No-M` – Results excluding the "M" operator  
+  - `No-G` – Results excluding the greedy-related operators
+  - `No-R` – Results excluding the random-related operators  
+  - `No-M` – Results excluding the multimodal-specific operators  
 
 - **Stability analysis of ALNS**  
-  Provides multiple runs of ALNS under identical settings to test its stability and robustness.
+  Provides 10 runs of ALNS under identical settings to test its stability and robustness.
 
 - **Comparison of approaches with and without drones**  
   Comparative results between multimodal approaches:  
-  - `without drones` – Ground-only transport  
-  - `with drones` – Coordinated ground–air transport  
+  - `without drones` – only cargo aircraft, trains, and trucks  
+  - `with drones` – intergrated drones into the cargo aircraft-train-truck multimodal system
 
 - **Comparison of static and dynamic models**  
   Analysis of planning under static and dynamic models:  
@@ -38,9 +38,9 @@ All data and results are organized into thematic folders as follows:
 
 - **Results under heterogeneous cargoes**  
   Results with varying proportions of heterogeneous cargo:  
-  - `0-100` – 0% type A cargo, 100% type B cargo  
-  - `20-80` – 20% type A, 80% type B  
-  - `50-50` – Equal split of cargo types  
+  - `0-100` – 0% emergency orders, 100% normal orders  
+  - `20-80` – 20% emergency orders, 80% type normal orders 
+  - `50-50` – 50% emergency orders, 50% type normal orders  
 
 - **Sensitivity analysis of key parameters**  
   Sensitivity tests with respect to major parameters:  
