@@ -62,6 +62,8 @@ Across all folders, the main Excel files follow a consistent naming convention a
 - **Intermodal_EGS_data_all** – Contains node information, vehicle information, route information, order information, and all related parameters  
 - **exps_record_all** – Master table of all experimental results  
 
+Please note that files with the same name may appear in different subfolders. These are **not duplicates**, but rather correspond to different experimental instances (e.g., *with drones* vs. *without drones*), where the file names are identical for consistency, while the contents differ according to the specific scenario.
+
 ---
 
 
