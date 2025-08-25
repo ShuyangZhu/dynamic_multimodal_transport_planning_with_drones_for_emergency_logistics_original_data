@@ -1,0 +1,134 @@
+
+Gurobi 11.0.1 (linux64) logging started Thu Mar 20 13:59:25 2025
+
+Set parameter LogFile to value "gurobi_10_.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 8.10 (Ootpa)")
+
+CPU model: Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 48 physical cores, 48 logical processors, using up to 32 threads
+
+Optimize a model with 191489 rows, 70352 columns and 1147546 nonzeros
+Model fingerprint: 0xa32aab05
+Model has 53478 quadratic objective terms
+Model has 17974 quadratic constraints
+Variable types: 20790 continuous, 49562 integer (49562 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+04]
+  QObjective range [3e+01, 4e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+06]
+Presolve removed 151827 rows and 54432 columns
+Presolve time: 3.43s
+Presolved: 71253 rows, 51614 columns, 232677 nonzeros
+Presolved model has 23796 SOS constraint(s)
+Variable types: 27138 continuous, 24476 integer (24472 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing primal log only...
+
+Root relaxation presolved: 40280 rows, 23602 columns, 208752 nonzeros
+
+Concurrent spin time: 0.20s (can be avoided by choosing Method=3)
+
+Solved with primal simplex
+
+Root relaxation: numerical trouble, 43958 iterations, 23.37 seconds (28.32 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  postponed    0               -          -      -     -   42s
+     0     0  postponed    0               -          -      -     -   47s
+     0     2  postponed    0               -          -      -     -  207s
+     1     5  postponed    1               -          -      - 467772  347s
+     3     8  postponed    2               -          -      - 214129  425s
+     7    16  postponed    3               -          -      - 120735  597s
+    15    32  postponed    4               -          -      - 82927  925s
+
+Gurobi 11.0.1 (linux64) logging started Thu Mar 20 15:51:09 2025
+
+Set parameter LogFile to value "gurobi_10_.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 8.10 (Ootpa)")
+
+CPU model: Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 48 physical cores, 48 logical processors, using up to 32 threads
+
+Optimize a model with 360581 rows, 115632 columns and 2412534 nonzeros
+Model fingerprint: 0x8146073d
+Model has 121984 quadratic objective terms
+Model has 29814 quadratic constraints
+Variable types: 20790 continuous, 94842 integer (94842 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+04]
+  QObjective range [3e+01, 4e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+06]
+Presolve removed 277213 rows and 88288 columns (presolve time = 5s) ...
+Presolve removed 279906 rows and 89180 columns (presolve time = 10s) ...
+Presolve removed 279898 rows and 89308 columns
+Presolve time: 10.46s
+Presolved: 145004 rows, 101720 columns, 497954 nonzeros
+Presolved model has 50264 SOS constraint(s)
+Variable types: 54792 continuous, 46928 integer (46924 binary)
+Found heuristic solution: objective 22510.897916
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 23.06s
+
+Barrier performed 0 iterations in 95.71 seconds (76.00 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+Concurrent spin time: 20.02s (can be avoided by choosing Method=3)
+
+Solved with primal simplex
+
+Root relaxation: unbounded, 13952 iterations, 23.73 seconds (1.97 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  postponed    0      22510.8979          -      -     -   97s
+     0     0  postponed    0      22510.8979          -      -     -  127s
+     0     2  postponed    0      22510.8979          -      -     -  406s
+     1     4  postponed    1      22510.8979          -      - 1158356  442s
+     3     8  postponed    2      22510.8979          -      - 411224  712s
+     7    16  postponed    3      22510.8979          -      - 270074  892s
+    15    32  postponed    4      22510.8979          -      - 179833 1509s
+    31    62  postponed    5      22510.8979          -      - 122465 2154s
+    63    94  postponed    6      22510.8979          -      - 122047 2457s
+    96    95 -1.000e+100    0 14425 22510.8979          -      - 88164 2897s
+    98    96 -1.000e+100    0    0 22510.8979          -      - 86365 2927s
+    99    97 -1.000e+100    0    0 22510.8979          -      - 85493 2946s
+   101   101  postponed   14      22510.8979          -      - 86466 3241s
+   103   105  postponed   15      22510.8979          -      - 90766 3390s
+   107   111  postponed   16      22510.8979          -      - 93623 3751s
+   115   125  postponed   17      22510.8979          -      - 105063 4409s
+   131   149  postponed   18      22510.8979          -      - 119212 5116s
+   163   171  postponed   19      22510.8979          -      - 123089 5405s
+   195   188  postponed   20      22510.8979          -      - 107207 5544s
+   227   207  postponed   20      22510.8979          -      - 93096 6149s
+   259   223  postponed   21      22510.8979          -      - 84066 6274s
+   291   252  postponed   21      22510.8979          -      - 75439 7080s
+   345   269  postponed   22      22510.8979          -      - 65843 8114s
+   404   286  postponed   23      22510.8979          -      - 58686 10472s
+   451   473  postponed   24      22510.8979          -      - 62656 12193s
+   670   991 infeasible   25      22510.8979          -      - 46057 16127s
+  1244  2261  postponed   28      22510.8979          -      - 27924 21600s
+
+Explored 2586 nodes (38597128 simplex iterations) in 21600.93 seconds (16881.65 work units)
+Thread count was 32 (of 48 available processors)
+
+Solution count 2: 22510.9 22510.9 
+
+Time limit reached
+Best objective 2.251089791610e+04, best bound -, gap -

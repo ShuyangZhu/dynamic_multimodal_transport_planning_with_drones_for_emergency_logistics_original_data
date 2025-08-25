@@ -1,0 +1,81 @@
+
+Gurobi 11.0.1 (linux64) logging started Sun Jul 27 07:08:27 2025
+
+Set parameter LogFile to value "gurobi_20.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 8.10 (Ootpa)")
+
+CPU model: Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 48 physical cores, 48 logical processors, using up to 32 threads
+
+Optimize a model with 452226 rows, 175446 columns and 3359405 nonzeros
+Model fingerprint: 0x77e7b6e5
+Model has 144348 quadratic objective terms
+Model has 63876 quadratic constraints
+Variable types: 34500 continuous, 140946 integer (140946 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+06]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 7e+01]
+  Objective range  [1e+00, 2e+03]
+  QObjective range [8e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+06]
+Presolve removed 266681 rows and 84827 columns (presolve time = 5s) ...
+Presolve removed 304067 rows and 112007 columns (presolve time = 10s) ...
+Presolve removed 304062 rows and 112002 columns
+Presolve time: 11.61s
+Presolved: 332552 rows, 291831 columns, 1356262 nonzeros
+Presolved model has 152258 SOS constraint(s)
+Variable types: 159432 continuous, 132399 integer (132395 binary)
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Elapsed ordering time = 6s
+Ordering time: 45.73s
+Elapsed ordering time = 47s
+Elapsed ordering time = 53s
+Elapsed ordering time = 56s
+Elapsed ordering time = 61s
+Elapsed ordering time = 67s
+Elapsed ordering time = 70s
+Elapsed ordering time = 75s
+Elapsed ordering time = 80s
+Elapsed ordering time = 85s
+Elapsed ordering time = 99s
+Elapsed ordering time = 106s
+Elapsed ordering time = 113s
+Elapsed ordering time = 123s
+Ordering time: 123.97s
+
+Barrier performed 0 iterations in 211.13 seconds (98.15 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+Concurrent spin time: 89.64s (can be avoided by choosing Method=3)
+
+Solved with primal simplex
+
+Root relaxation: numerical trouble, 958922 iterations, 396.98 seconds (381.58 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  postponed    0               -          -      -     -  478s
+     0     0  postponed    0               -          -      -     - 1406s
+     0     2  postponed    0               -          -      -     - 5110s
+     1     5  postponed    1               -          -      - 4123799 7816s
+     3     8  postponed    2               -          -      - 2003503 10976s
+     7    16  postponed    3               -          -      - 1526011 15538s
+    16    17 -1.000e+100    0 35854          -          -      - 1202489 17418s
+    18    18 -1.000e+100    0    0          -          -      - 1068879 17808s
+    19    19 -1.000e+100    0    0          -          -      - 1012622 18261s
+
+Explored 21 nodes (24753318 simplex iterations) in 21600.12 seconds (38600.36 work units)
+Thread count was 32 (of 48 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound -, gap -
