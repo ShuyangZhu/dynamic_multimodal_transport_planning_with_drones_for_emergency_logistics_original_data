@@ -39,10 +39,10 @@ All data and results are organized into thematic folders as follows:
   - `High frequency` – Frequent sudden events  
 
 - **Results under heterogeneous cargoes**  
-  Results with varying proportions of heterogeneous cargo:  
+  Results with varying proportions of heterogeneous cargo types:  
   - `0-100` – 0% emergency orders, 100% normal orders  
-  - `20-80` – 20% emergency orders, 80% type normal orders 
-  - `50-50` – 50% emergency orders, 50% type normal orders  
+  - `20-80` – 20% emergency orders, 80% normal orders 
+  - `50-50` – 50% emergency orders, 50% normal orders  
 
 - **Sensitivity analysis of key parameters**  
   Sensitivity tests with respect to major parameters:  
